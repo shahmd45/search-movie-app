@@ -2,10 +2,9 @@ import { useEffect, useState } from 'react';
 import Banner from './components/Banner/Banner';
 import Navbar from './components/Navbar/Navbar';
 import Movies from './components/Movies/Movies';
+import MovieDetails from './components/MovieDetails/MovieDetails';
 
 import './App.css';
-import { toUSVString } from 'util';
-import MovieDetails from './components/MovieDetails/MovieDetails';
 
 function App() {
   const url = `http://www.omdbapi.com/?s=star_wars&&apikey=${process.env.REACT_APP_API_KEY}`

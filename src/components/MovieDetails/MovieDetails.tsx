@@ -1,4 +1,3 @@
-import React from 'react'
 import './MovieDetails.css';
 import Close from '../../assets/WhiteClose.svg';
 
@@ -8,8 +7,7 @@ type MovieDetailsProps = {
     handleCancel: (value: boolean) => void;
 }
 
-function MovieDetails({ movieDetail, modalFlag, handleCancel }: MovieDetailsProps) {
-    console.log(movieDetail)
+function MovieDetails({ movieDetail, handleCancel }: MovieDetailsProps) {
     return (
         <div>
             <div className='movieDetails__backdrop'></div>
