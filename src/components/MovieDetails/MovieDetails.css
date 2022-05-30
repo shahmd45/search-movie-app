@@ -1,0 +1,72 @@
+.movieDetails__backdrop {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 20;
+    background: rgba(0, 0, 0, 0.75);
+    right: 0px;
+    bottom: 0px;
+}
+
+.movieDetails__container {
+    width: 824px;
+    background: rgba(0, 0, 0, 0.95);
+    z-index: 21;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    padding: 16px;
+}
+
+.movieDetails__section {
+    display: flex;
+    gap: 50px;
+}
+
+.closeIcon {
+    cursor: pointer;
+    float: right;
+}
+
+.movieContent {
+    margin-top: 24px;
+}
+
+.movieContent h1, h3, h5 {
+    color: #fff;   
+    margin-bottom: 24px;
+}
+
+.movieContent h1 {
+    font-size: 26px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+}
+
+.movieContent h3 {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+}
+
+.movieContent h5 {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    text-transform: capitalize;
+}
+
+.movieContent p {
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 10px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-style: italic;
+}
